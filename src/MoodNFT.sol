@@ -10,7 +10,6 @@ contract MoodNFT is ERC721 {
     uint256 s_tokenCounter;
     string private s_happySVGImageUri;
     string private s_sadSVGImageUri;
-
     enum Mood {
         HAPPY,
         SAD
